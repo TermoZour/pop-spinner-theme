@@ -1,5 +1,5 @@
 # pop-spinner-theme
-Pop!_OS inspired spinner theme.
+Pop!_OS inspired spinner theme for plymouth.
 
 The spinner icon was taken from `/usr/share/icons/Pop/scalable/status/process-working-symbolic.svg` and the color changed to white.
 
