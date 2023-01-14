@@ -5,6 +5,17 @@ The spinner icon was taken from `/usr/share/icons/Pop/scalable/status/process-wo
 
 The original icon can be found [here](https://github.com/pop-os/gtk-theme/blob/master/gnome-shell/src/process-working.svg).
 
+# Installation
+
+Run the following to install the theme:
+
+```
+git clone https://github.com/TermoZour/pop-spinner-theme.git
+sudo cp -r ./pop-spinner-theme/pop-spinner /usr/share/plymouth/themes
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/pop-spinner/pop-spinner.plymouth 100
+sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/pop-spinner/pop-spinner.plymouth
+sudo update-initramfs -u -k all
+```
 
 # Generating the animation frames
 
